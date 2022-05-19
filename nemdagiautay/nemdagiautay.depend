@@ -1,0 +1,203 @@
+# depslib dependency file v1.0
+1652807280 source:c:\users\lataon\documents\nemdagiautay\src\commonfunc.cpp
+	"commonFunc.h"
+
+1652881602 c:\users\lataon\documents\nemdagiautay\header\commonfunc.h
+	"include.h"
+
+1651428965 c:\users\lataon\documents\nemdagiautay\header\include.h
+	<windows.h>
+	<vector>
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<iostream>
+	<sstream>
+	<cmath>
+
+1652884174 source:c:\users\lataon\documents\nemdagiautay\src\game.cpp
+	"Game.h"
+
+1652881602 c:\users\lataon\documents\nemdagiautay\header\game.h
+	"include.h"
+	"Object.h"
+	"Map.h"
+	"Object.h"
+	"commonFunc.h"
+	"Geometric.h"
+	"Power.h"
+
+1652843776 c:\users\lataon\documents\nemdagiautay\header\object.h
+	"Texture.h"
+	"Weapon.h"
+	"commonFunc.h"
+	"Map.h"
+
+1652550268 c:\users\lataon\documents\nemdagiautay\header\texture.h
+	"include.h"
+	"commonFunc.h"
+
+1652366648 c:\users\lataon\documents\nemdagiautay\header\weapon.h
+	"commonFunc.h"
+	"Texture.h"
+	"Timer.h"
+	"Map.h"
+
+1652840043 c:\users\lataon\documents\nemdagiautay\header\timer.h
+
+1652263219 c:\users\lataon\documents\nemdagiautay\header\map.h
+	"Texture.h"
+	"commonFunc.h"
+
+1652109860 c:\users\lataon\documents\nemdagiautay\header\geometric.h
+	"Game.h"
+	"commonFunc.h"
+
+1652350550 c:\users\lataon\documents\nemdagiautay\header\power.h
+	"commonFunc.h"
+	"Texture.h"
+
+1652109826 source:c:\users\lataon\documents\nemdagiautay\src\geometric.cpp
+	"Geometric.h"
+
+1652844894 source:c:\users\lataon\documents\nemdagiautay\src\main.cpp
+	"include.h"
+	"commonFunc.h"
+	"Game.h"
+	"Timer.h"
+	"Menu.h"
+
+1652921613 c:\users\lataon\documents\nemdagiautay\header\menu.h
+	"commonFunc.h"
+	"include.h"
+	"Texture.h"
+	"Timer.h"
+
+1652264322 source:c:\users\lataon\documents\nemdagiautay\src\map.cpp
+	"Map.h"
+	"Texture.h"
+	<fstream>
+
+1652882740 source:c:\users\lataon\documents\nemdagiautay\src\object.cpp
+	"Object.h"
+	"include.h"
+
+1652802628 source:c:\users\lataon\documents\nemdagiautay\src\power.cpp
+	"Power.h"
+	"include.h"
+
+1652688060 source:c:\users\lataon\documents\nemdagiautay\src\texture.cpp
+	"Texture.h"
+	"Game.h"
+
+1652840043 source:c:\users\lataon\documents\nemdagiautay\src\timer.cpp
+	"Timer.h"
+	"CommonFunc.h"
+
+1652884151 source:c:\users\lataon\documents\nemdagiautay\src\weapon.cpp
+	"commonFunc.h"
+	"Weapon.h"
+
+1652807280 source:c:\users\lataon\documents\nemdagiautay\nemdagiautay\src\commonfunc.cpp
+	"commonFunc.h"
+
+1652924693 source:c:\users\lataon\documents\nemdagiautay\nemdagiautay\src\game.cpp
+	"Game.h"
+
+1652109826 source:c:\users\lataon\documents\nemdagiautay\nemdagiautay\src\geometric.cpp
+	"Geometric.h"
+
+1652844894 source:c:\users\lataon\documents\nemdagiautay\nemdagiautay\src\main.cpp
+	"include.h"
+	"commonFunc.h"
+	"Game.h"
+	"Timer.h"
+	"Menu.h"
+
+1652923430 source:c:\users\lataon\documents\nemdagiautay\nemdagiautay\src\map.cpp
+	"Map.h"
+	"Texture.h"
+	<fstream>
+
+1652924387 source:c:\users\lataon\documents\nemdagiautay\nemdagiautay\src\object.cpp
+	"Object.h"
+	"include.h"
+
+1652923430 source:c:\users\lataon\documents\nemdagiautay\nemdagiautay\src\power.cpp
+	"Power.h"
+	"include.h"
+
+1652688060 source:c:\users\lataon\documents\nemdagiautay\nemdagiautay\src\texture.cpp
+	"Texture.h"
+	"Game.h"
+
+1652840043 source:c:\users\lataon\documents\nemdagiautay\nemdagiautay\src\timer.cpp
+	"Timer.h"
+	"CommonFunc.h"
+
+1652884151 source:c:\users\lataon\documents\nemdagiautay\nemdagiautay\src\weapon.cpp
+	"commonFunc.h"
+	"Weapon.h"
+
+1652924470 c:\users\lataon\documents\nemdagiautay\nemdagiautay\header\commonfunc.h
+	"include.h"
+
+1651428965 c:\users\lataon\documents\nemdagiautay\nemdagiautay\header\include.h
+	<windows.h>
+	<vector>
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<iostream>
+	<sstream>
+	<cmath>
+
+1652109860 c:\users\lataon\documents\nemdagiautay\nemdagiautay\header\geometric.h
+	"Game.h"
+	"commonFunc.h"
+
+1652881602 c:\users\lataon\documents\nemdagiautay\nemdagiautay\header\game.h
+	"include.h"
+	"Object.h"
+	"Map.h"
+	"Object.h"
+	"commonFunc.h"
+	"Geometric.h"
+	"Power.h"
+
+1652923430 c:\users\lataon\documents\nemdagiautay\nemdagiautay\header\object.h
+	"Texture.h"
+	"Weapon.h"
+	"commonFunc.h"
+	"Map.h"
+
+1652550268 c:\users\lataon\documents\nemdagiautay\nemdagiautay\header\texture.h
+	"include.h"
+	"commonFunc.h"
+
+1652366648 c:\users\lataon\documents\nemdagiautay\nemdagiautay\header\weapon.h
+	"commonFunc.h"
+	"Texture.h"
+	"Timer.h"
+	"Map.h"
+
+1652840043 c:\users\lataon\documents\nemdagiautay\nemdagiautay\header\timer.h
+
+1652263219 c:\users\lataon\documents\nemdagiautay\nemdagiautay\header\map.h
+	"Texture.h"
+	"commonFunc.h"
+
+1652350550 c:\users\lataon\documents\nemdagiautay\nemdagiautay\header\power.h
+	"commonFunc.h"
+	"Texture.h"
+
+1652925596 c:\users\lataon\documents\nemdagiautay\nemdagiautay\header\menu.h
+	"commonFunc.h"
+	"include.h"
+	"Texture.h"
+	"Timer.h"
+
