@@ -1,5 +1,3 @@
 
 # nemdagiautay
-# nemdagiautay
-# nemdagiautay
-# nemdagiautay
+
