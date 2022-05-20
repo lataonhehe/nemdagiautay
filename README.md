@@ -38,7 +38,7 @@
 ## *Hình ảnh minh họa*
 
 ### More
-* [Video demo trò chơi]()
+* [Video demo trò chơi](https://youtu.be/qRMOV3hEJ_I)
 
 ## *Các kĩ thuật sử dụng*
 ### SDL
