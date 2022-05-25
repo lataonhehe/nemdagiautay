@@ -10,6 +10,21 @@
 ### *Giới thiệu*
 
 * Ném đá giấu tay là trò chơi đối kháng 1 vs 1 giải trí với âm nhạc và đồ họa bắt mắt, vui nhộn.
+### *Hướng dẫn cài đặt*
+#### 1.Cài đặt:
+* Chương trình sử dụng file project của Code::Blocks.
+* Hãy chắc chắn rằng bạn đã tải đầy đủ Code::Blocks, Mingw và các thư viện SDL2, SDL_image, SDL_ttf, SDL_mixer bản tương thích với thiết bị được sử dụng.
+* Tải thư mục nemdagiautay.
+* Sửa lại đường dẫn vào file SDL:
+	* Nếu bạn chưa có sẵn các thư viện liên kết (các file .dll) trong System, hãy lấy chúng từ SDL2/bin và thả vào thư mục nemdagiautay hoặc System32 (với máy 32 bit)/SysWOW64 (với máy 64 bit).
+	* Mở nemdagiautay.cbp bằng Code::Blocks, trong Project/Build options/Search directories/Compiler xóa đường dẫn cũ và thay bằng đường dẫn tới thư mục include/SDL2.
+					   trong Linkers xóa đường dẫn cũ và thay bằng đường dẫn tới thư mục lib ứng với các thư viện trên.
+* Bên cạnh đó, hãy chắc chắn rằng phần Other linker options trong Project/Build options/Linker settings đã ghi đầy đủ:
+			-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+			
+#### 2. Chạy chương trình:
+* Chọn Build/Rebuild trên thanh điều khiển (hoặc ấn Ctrl-F11), nếu không thành công hãy thử khởi động lại Code::Blocks hoặc kiểm tra lại các thao tác.
+* Sau khi build thành công thì chương trình có thể chạy.
 
 
 ### *Cách chơi*
@@ -50,7 +65,8 @@
 * Sử dụng phân chia file để quản lí.
 
 ### Kĩ thuật khác
-* Tính toán, căn chỉnh vị trí các đối tượng hiển thị.
+* Tính toán, căn chỉnh vị trí các đối tượng hiển thị, dùng map thể hiện các vật cản.
+* Tính toán fps, tối ưu bộ nhớ và tài nguyên game sử dụng.
 * Phân chia file: Logic game ở một file và SDL ở một file.
 * Tạo menu cùng các chức năng.
 * Tối giản hàm main dễ dọc, dễ hiểu.
@@ -66,5 +82,5 @@
 ## *Lời cuối*
 *Cảm ơn mọi người đã đọc và đánh giá project.*
 
-#### **Mức điểm tự đánh giá: 9-9,25.**
+#### **Mức điểm tự đánh giá: 9,25-9,5.**
 
